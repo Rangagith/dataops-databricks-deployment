@@ -1,0 +1,17 @@
+{
+  "name": "sales_dlt_pipeline",
+  "storage": "dbfs:/pipelines/sales",
+  "clusters": [
+    {
+      "label": "default",
+      "num_workers": 2
+    }
+  ],
+  "libraries": [
+    {
+      "notebook": {
+        "path": "/Repos/data-team/sales_pipeline"
+      }
+    }
+  ]
+}
