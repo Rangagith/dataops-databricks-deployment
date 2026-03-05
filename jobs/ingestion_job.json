@@ -1,0 +1,7 @@
+{
+  "name": "daily_ingestion_job",
+  "existing_cluster_id": "1234-567890-abcde",
+  "notebook_task": {
+    "notebook_path": "/Repos/data-team/ingestion_notebook"
+  }
+}
